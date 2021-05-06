@@ -1,0 +1,390 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"col",
+				"col-md-4"
+			],
+			[
+				"margin",
+				"margin-right\tproperty"
+			],
+			[
+				"a",
+				"auto\tmargin"
+			],
+			[
+				"c",
+				"col-md-4"
+			],
+			[
+				"pa",
+				"padding-top\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"padd",
+				"padding\tproperty"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"btn",
+				"btn-small"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"o",
+				"owner_appointment_of_agent_1"
+			],
+			[
+				"ow",
+				"owner_appointment_of_agent"
+			],
+			[
+				"own",
+				"owner_appointment_of_agent_1"
+			],
+			[
+				"builder",
+				"builder_agreement"
+			],
+			[
+				"sig",
+				"sign_order_forms"
+			],
+			[
+				"commu",
+				"communityRegulationsPDF"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"dropdown",
+				"dropdown"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"builder_a",
+				"builder_agreement_1"
+			],
+			[
+				"ownerApp",
+				"ownerAppointmentOfAgentJPG"
+			],
+			[
+				"owne",
+				"owner_appointment_of_agent"
+			],
+			[
+				"oe",
+				"ownerAppointmentOfAgent1"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"Ow",
+				"owner_appointment_of_agent"
+			],
+			[
+				"prelim",
+				"preliminary_review_request"
+			],
+			[
+				"prelimin",
+				"preliminary_review_request"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "aspengrouponline2.sublime-workspace",
+			"settings":
+			{
+				"buffer_size": 6516,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/aspengrouponline2"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/aspengrouponline/untitled",
+		"/Applications/MAMP/htdocs/ledgeshoa/ledgeshoa.sublime-project",
+		"/Users/harrisonpadan/Desktop/test.html",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/sign_order_forms.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/builder_rules_and_regulations.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/sign_regulations.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/header.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/owners.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/community_documents.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/approved_plants.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/private/classes/databaseObject.class.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/cr0507s1.html",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/ryanjones.html",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/submittals.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/css/custom.css",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/new_construction.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/ryanjones.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/css/style.css",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/builder_forms.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/approved_builder_list.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/community_rules_and_regulations.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/documents/sign_order_forms/construction_sign.pdf",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/css/skins/dark_gray.css",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/index.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/magic_viewer/upload_email_images.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/owner_appointment_of_agent.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/builder_agreement.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/approved_plants /approved_plants.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/approved_plants.OLD.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/builder_regs_test",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/lot_map.php",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/approved_plants.html",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/composer.json",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/composer.lock",
+		"/Applications/MAMP/htdocs/aspengroup/aspengroup.sublime-project",
+		"/Applications/MAMP/htdocs/myhoaonline/myhoaonline.sublime-project",
+		"/Applications/MAMP/htdocs/ledgeshoa/public/testDELETE.txt",
+		"/Users/harrisonpadan/Desktop/Git/Secondary_Version.html",
+		"/Users/harrisonpadan/Desktop/First Version.html",
+		"/Users/harrisonpadan/Desktop/GitHub/First Draft.html"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "aspengrouponline2.sublime-workspace",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 6516,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "aspengrouponline2.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 318.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
