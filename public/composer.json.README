@@ -1,0 +1,32 @@
+
+The sample composer.json below restricts the google api services to just Drive and Sheets
+
+github repo for the google api php client
+https://github.com/googleapis/google-api-php-client
+
+IMPORTANT: If you add any services back in composer.json (e.g. Sheets), you will need to remove the vendor/google/apiclient-services directory explicity for the change you made to have effect:
+
+
+    rm -r vendor/google/apiclient-services
+    composer update
+
+
+Example composer.json file, copied from myHOA.online as a reference:
+
+{
+    "require": {
+        "phpmailer/phpmailer": "~6.0",
+        "google/apiclient": "^2.7",
+        "quickbooks/v3-php-sdk": ">=1.0",
+        "league/oauth2-google": "^3.0"
+    },
+    "scripts": {
+        "post-update-cmd": "Google_Task_Composer::cleanup"
+    },
+    "extra": {
+        "google/apiclient-services": [
+            "Drive",
+            "Sheets"
+        ]
+    }
+}

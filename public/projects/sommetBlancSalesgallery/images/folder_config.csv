@@ -1,0 +1,14 @@
+imageFolderPath,imageFolder,tabs,gallery,border,overlay,displayImageFolderName,containerWidth
+construction/craning,1,0,1,0,1,1,200
+construction/drywall,1,0,1,0,1,1,200
+construction/electrical,1,0,1,0,1,1,200
+construction/foundation,1,0,1,0,1,1,200
+construction/foundation,1,0,1,0,1,1,200
+construction/interior,1,0,1,0,1,1,200
+construction/temp,1,0,1,1,1,1,200
+construction/trailer,1,0,1,0,1,1,200
+images/finish,1,0,1,1,1,1,200
+images/handicapRamp,1,0,1,0,1,1,200
+images/site,1,0,1,0,1,1,200
+images/trailer,1,0,1,0,1,1,200
+trailer,1,0,1,0,1,1,200

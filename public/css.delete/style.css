@@ -1,0 +1,39 @@
+.view .mask {
+	width:70%;
+	height:310px;
+	margin:auto;
+}
+
+
+  html,
+  body,
+  header,
+  #intro {
+      height: 800px;
+  }
+
+#intro {
+      background: url("img/mountOlympus.jpg")no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+@media only screen and (max-width:600px) {
+	
+	.view .mask {
+		width:70%;
+		height:70%;
+		margin:auto;
+	}
+	
+	#intro {
+		background: url("img/mountOlympus.jpg")no-repeat center center;
+	}
+
+	#logo {
+		font-size:1.0rem;
+		line-height:1.2
+	}
+}

@@ -1,0 +1,16 @@
+# this file to be copied to the root of any imageMaker folder
+# creates pretty URLs
+
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !localhost
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^(.+)$ index.php?path=$1
+
+
+
+
+

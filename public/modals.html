@@ -1,0 +1,230 @@
+<!-- change password modal -->
+
+    <div id="changePasswordModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content" style="background:transparent;width:500px;margin:auto">
+
+                <div class="text-center white-text mx-5" style="margin:0!important">
+
+                    <div class="card" style="width:100%">
+                        
+                        <div class="card-body">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true" class="white-text">&times;</span>
+                            </button>
+
+                            <h2 style="text-align:left" class="title">Change Password</h2>
+
+                            <div id="change_password_error" class="form-group animated" style="width:100%;display:none">
+                                <div style="margin-top:20px; background-color:#e84c3d; color:white; padding:10px 20px" >
+                                    <p style="display:table-cell; height:40px; vertical-align:middle"><i class = "fa fa-warning"></i>&nbsp;<span id="change_password_error_message"></span></p>
+                                </div>
+                            </div>
+
+
+                            <form style="width:400px;margin:auto">
+                                <div class="md-form">
+                                    <input type="password" id="password1Input" class="form-control" onkeypress="handle(event)">
+                                    <label for="password1Input">New Password</label>
+                                </div>
+
+                                <div class="md-form">
+                                    <input type="password" id="password2Input" class="form-control" onkeypress="handle(event)">
+                                    <label for="password2Input">Confirm Password</label>
+                                </div>
+
+                            </form>    
+
+                            <div class="text-center">
+                                <button id="changePasswordBtn" class="login-btn btn blue-gradient btn" onkeypress="handle(event)">Submit</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- unit modal -->
+    <div id="unitModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" >
+        
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-notify modal-info" role="document">
+            
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <p id="unitModalTitle" style="width:100%" class="heading lead"></p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    
+                    <ul class="nav md-pills pills-secondary">
+
+                        <li class="nav-item">
+                            <a class="nav-link active unit-summary" data-toggle="tab" href="#unitSummary" role="tab">Summary</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#unitFloorPlan" role="tab">Floor Plan</a>
+                        </li>
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#unitInterior" role="tab">Interior</a>
+                        </li> -->
+
+                        <!-- <li class="nav-item">
+                            <a class="nav-link disabled" data-toggle="tab" href="#unitVideo" role="tab">Video</a>
+                        </li> -->
+                    </ul>
+
+                    <hr>
+
+                    <div class="tab-content pt-0">
+
+                        <div id="unitSummary" class="tab-pane fade in show active">
+                            <h2 style="margin-bottom:20px">Unit Summary</h2>
+                            <div id="unitSummaryContent">
+                                
+                                <table>
+                                    <tr>
+                                        <td>Unit Number:</td>
+                                        <td id="unitNumber" class="text-right"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Price:</td>
+                                        <td id="unitPrice" class="text-right"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Square Feet:</td>
+                                        <td id="unitSf" class="text-right"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Status:</td>
+                                        <td id="unitStatus" class="text-right"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Bedrooms:</td>
+                                        <td id="unitBedrooms" class="text-right"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Bathrooms:</td>
+                                        <td id="unitBathrooms" class="text-right"></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Den:</td>
+                                        <td id="unitDen" class="text-right"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div id="unitFloorPlan" class="tab-pane fade in show" style="text-align:center;overflow-y:scroll">
+                        </div>
+
+                        <div id="unitVideo" class="tab-pane fade in show">
+                            <h2>Video</h2>
+                        </div>
+
+                        <div id="unitInterior" class="tab-pane fade in show">
+                            <h2>Interior</h2>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+<!-- Webcam 1 -->
+    <div id="webCamModal1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+               
+                        <!-- Sommet Blanc Web Cam 1 -->
+                        <iframe class="embed-responsive-item z-depth-1-half" src="https://www.youtube.com/embed/s1XKXyqdGbg?autoplay=1&mute=1" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <span style="font-size:1.3em" class="mr-4">Sommet Blanc - Webcam 1</span>
+                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<!-- Webcam 2 -->
+    <div id="webCamModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body mb-0 p-0">
+
+                    <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+               
+                        <!-- Sommet Blanc Web Cam 2 -->
+                        <iframe class="embed-responsive-item z-depth-1-half" src="https://www.youtube.com/embed/dhBg7G-lOAA?autoplay=1&mute=1" allow="autoplay" frameborder="0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <span style="font-size:1.3em" class="mr-4">Sommet Blanc - Webcam 2</span>
+                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>    
+
+<!-- Weather -->
+    <div id="weatherModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+
+            <div style="max-width:520px;margin:auto"class="modal-content">
+
+                <div class="modal-body mb-0 p-0">
+
+                    <div>
+                        <iframe id='weatherIframe' src='https://www.weatherlink.com/embeddablePage/show/0572171d07f34667a81a1a0f59a0ae93/wide' width='520' height='480' frameborder='0'></iframe>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer justify-content-center">
+                    <span style="font-size:1.3em" class="mr-4">Sommet Blanc Weather</span>
+                    <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-backdrop="true" data-dismiss="modal">Close</button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+

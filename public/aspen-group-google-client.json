@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "aspen-group",
+  "private_key_id": "ae76ed05f533133c18c71decb97c65785ac8a9a0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDVPj2N4ocfEgfY\nnpaL0OiNlTcsz0s+aQOxPC8QDWY4zYkTq9w7G78T6MNzg6ct9ZTZqHIbGqqCP5PN\nh3PCV4OdU5YZ80ePAD4RtgNTpCuEYgL+TZTVB0oSAwus59Zff7yGDrYkZnVDvuAO\ne633ck5Z3YJ+mnLkA5clYsgoLzSiB1lUrjMlhKv32no7x/NkzDUTOARnpbS2/n0x\n6GRBY3Gz3/lrVKgCmrQoZY7nXD19Ql2Fx9+Y6j5oCZALN4wQ5SI4RpzhbouygvJU\ntPEhwuVnYMusz0wEGOHO4CHYDp53qZ4dmrt7wGaEdgiNsEphSNG0SNInRON2uv1T\nNxhJ9a+NAgMBAAECggEAUj7wRNIzJXOx3QXFsOWBXGJJ5pmJPugICYrZ6AoS/COi\nFBk8FvwrpYUoJVyI1Xwbzhte7z9ItnXJDwOITVOtqrd7dETVu7zvM6uM+uyd8DBR\nUT4hAk0Ob4YHMcg1cZ3124q/C6kM33U2O7/OKFtJBvYdh7EQUQtld4DzDDSwyzDw\nJhY+wi9mbnxMWfUaXUuKICgEDx7sZJeIEdhNJM3fkLYADbDiS9VYGGqvAhj6IuDt\n+eq6C1L9mr82pbUm4FZiK8uTftEMkUJZxNsQ0pjDc9AR+0yxKILtg+Ed6aq5RTrN\nvE7/nLgQ4+iWCQ6gvgIR14RMqlC3OhOgTTbAcRZAQQKBgQDvODT9BYwvkHVHOKJY\nRSrED8gfJT6qEshHzvwSKTq3vKYiQ0bYEXCpQ38RZzR6U/MqTprqvCSpHmrVFtJZ\nJ4+kzMZDZGV+ZmnMAfh54Sa5hvWMbTuuuNhl5pRb93SDUsCk2AbxlRI3IWEFIY75\nrNfMYnZMLARjpd9bIOUVlF1gMQKBgQDkM4+TPEGFcvv2jpTlnAAz75M4FUDGCm6n\nc6u0ncuG3Xmy0jOMbEf9uv5q+qapPu54l6fofvACWKGaQ1K64dOdvvokssxaLJTX\nDQnYaWDpyXllzRNAEM23N7jHyJe6BOpm7y4Lttw630jOs2SD38UiMCAznbfPKLU0\ndrFGqIXqHQKBgHWRSTGFFXWW6JydL+Rz8eWz3+W2t0p8uqPYDTibvLjqZTf3moy8\nXYNCoeOatkbclWiYgziUSOw4/8ZEVhLtB4K2BUa/w8XQbXSPD2BPEGoj8vAWCzv+\nqpPCM+3S+xdDh1w8s4Ttf6tKo1UTPiJlGRXg2kTraSjUL6aozw3BAfcxAoGAWku8\np/nTw0Y4RNsuN5x+yA4oJqziMHq4RjIS4yj8+6RvHz7lfs7pvZBcU2BSye1I1xbL\nLcfsmEER0MSK27+3yFdlC1hkW9oAGwfhuWwZGOjLzGhVEaiUfcbiqsrInqaLSaei\nhKgahIENghyhzTyh+GEqnMHvlVz6NoQwqVDNjFECgYBHNU6aQzyJF8drK5DPMzZv\nq/m+hrJmXfdo5Y03q6ly+iZItSbTa4o4CIvlVKGIR8NNg4KXayGlBh7VzlOKqA6z\n+Ozwnsr8RFxKOhLiC5vfBMWP9NyX/OfvjEYM++FczVy4foHFkCZLGvcp2F0a3q5f\nK2ir9xS+4aBlxm/Te+qSHg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "aspen-group-service-account@aspen-group.iam.gserviceaccount.com",
+  "client_id": "104545496754001091927",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/aspen-group-service-account%40aspen-group.iam.gserviceaccount.com"
+}

@@ -1,0 +1,272 @@
+@media(min-width:1449px) {
+    main {
+        padding-left:240px!important;
+    }
+}
+
+@media(max-width:1448px) {
+    main {
+        padding-left:0px!important;
+    }
+}
+
+.down-arrow {
+    cursor: default;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 999;
+    right: calc(50% - 30px);
+    bottom: 20px;
+    margin: 0px;
+    background: #2058a5 url('../img/down-arrow.png') no-repeat center 47%;
+    border-radius: 25px
+}
+
+.up-arrow {
+    cursor: default;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 999;
+    right: calc(50% - 30px);
+    bottom: 20px;
+    margin: 0px;
+    background: #2058a5 url('../img/up-arrow.png') no-repeat center 47%;
+    border-radius: 25px
+}
+
+.modal-header {
+    padding:10px 20px;
+}
+
+.tab-pane {
+    height:600px;
+}
+
+.md-pills .nav-link.active {
+    background-color:white!important;
+    color:grey!important;
+    border:1px solid grey!important;
+}
+
+.side-nav .collapsible a {
+    font-size:.9rem;
+}
+
+.view {
+    overflow:scroll!important;
+}
+
+#main {
+    padding:0;
+    margin:0;
+}
+
+.white-skin .navbar .navbar-nav .nav-item a {
+    font-size:16px!important;
+}
+
+#loader {
+    text-align:center;
+    line-height:100px;
+    font-size:50px;
+    position: fixed;
+    z-index: 200;
+    color: #666;
+    width: 300px;
+    height: 100px;
+    top:35%;
+    left:50%;
+    margin-left:-150px;
+    display:table;
+    text-align:center;
+    border-radius:5px;
+}
+
+#page_body_content {
+    padding:0 3%;
+}
+
+@media(min-width:1450px) {
+    .page-body {
+        
+        /* shows 100% of the image but doesn't cover the div on small */
+        background-size:100% auto; 
+        
+        /* covers the div, but crops the image on smaller windows */
+        /*background-size:cover;*/ 
+        
+        background-repeat: no-repeat;
+        position:fixed;
+        top:0;
+        left:240px;
+        width:100%;
+        height:100%;
+
+    }
+}
+
+@media(max-width:1449px) {
+    .page-body {
+        
+        /* shows 100% of the image but doesn't cover the div on small */
+        background-size:100% auto; 
+        
+        /* covers the div, but crops the image on smaller windows */
+        /*background-size:cover;*/ 
+        
+        background-repeat: no-repeat;
+        position:fixed;
+        top:0;
+        left:0px;
+        width:100%;
+        height:100%;
+
+    }
+}
+
+
+
+body {
+    /*background-color:#eee;*/
+}
+
+canvas { 
+    display: block; 
+}
+
+.snow .card {
+    background-color: rgba(0, 0, 0, 0.4 );
+    width:450px;
+}
+
+.snow .card .card-body h2 {
+    font-weight: 300
+}
+
+.snow {
+    position: absolute; left: 0; top: 0; right: 0; bottom: 0;
+    background:url('../img/aspens_blackandwhite.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#logo {
+    background-color:rgba(0,0,0,.4);
+    border-radius:.25rem;
+
+}
+
+html,body,header,.view {
+    height: 100%;
+    /*cursor:pointer;*/
+}
+
+h6 {
+    line-height: 1.7;
+}
+
+.login-btn {
+    padding:7px 20px;
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+.md-form .form-control {
+    color:white!important;
+}
+
+.md-form input[type=text]:focus:not([readonly]),
+.md-form input[type=password]:focus:not([readonly]) {
+    border-bottom: 1px solid white!important;
+    box-shadow: 0 1px 0 0 white!important;
+}
+.md-form input[type=text]:focus:not([readonly])+label,
+.md-form input[type=password]:focus:not([readonly])+label {
+    color: white!important;
+}
+
+.sn-bg-4 {
+    /*background-image: url("img/sidebar_background2.png");*/
+}
+
+.pattern-9 {
+    background-image: url("img/pattern-9.png");
+    background-repeat: repeat;
+}
+
+.side-nav a {
+    line-height: 67px;
+}
+
+/*#breadcrumb_name {
+    position:absolute;
+    top:-15px;
+    left:15px;
+    width:500px;
+}
+
+.breadcrumb-dn {
+    position:relative;
+}*/
+
+/*
+
+    media queries below are for testing to display the project name at narrower widths.
+*/
+
+@media (min-width: 900px) {
+    #breadcrumb_name {
+        display: block;
+    }
+}
+
+@media (min-width: 900px) {
+    .double-nav .breadcrumb-dn {
+        display: block;
+    }
+}
+
+.navbar {
+    min-height: 67px;
+    background-color:#333!important;
+}
+
+@media(min-width:1400px) {
+    .navbar {
+        padding-left:250px!important;
+    }
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu a:hover {    
+    background-color: #36b6b6;
+}
+
+.dropdown-submenu:hover {
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%)!important;
+    background-color:#2a75f3;
+    
+}
+
+li.dropdown-item:hover {
+    background-color:white!important;
+}
+
+li.dropdown-item.dropdown-submenu:hover {
+    background-color:transparent!important;
+}
+
+.dropdown .dropdown-menu .dropdown-item:hover {
+    /*background-color:#4285f4!important;*/
+}
+
+.dropdown-menu>.dropdown-item a:hover {
+    border-radius:.125rem;
+    box-shadow: 0 5px 11px 0 rgb(0 0 0 / 18%), 0 4px 15px 0 rgb(0 0 0 / 15%);
+    color:white!important;
+}

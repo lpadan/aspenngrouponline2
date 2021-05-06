@@ -1,0 +1,12 @@
+RewriteEngine on
+
+# this file is in the public directory
+# if request is http, then redirect to https
+# else ignore RewriteRule and redirect
+
+#RewriteCond %{SERVER_PORT} 80  (note: this works as an alternative to %{HTTPS} off) http uses port 80 and https uses port 443
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} !localhost
+RewriteRule ^(.*)$ https://aspengroup.online/public$1 [R,L]
+
