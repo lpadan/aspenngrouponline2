@@ -1,7 +1,5 @@
 RewriteEngine on
 
-hi there
-
 # if the URL contains /public
 # %1 refers to the match in the RewriteCond
 # [L] makes it the last test
