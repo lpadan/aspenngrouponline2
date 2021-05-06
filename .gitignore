@@ -1,0 +1,7 @@
+vendor/
+.DS_Store
+#offerings/*/images
+#projects/*/images
+node_modules/
+*.sublime-workspace
+*.sublime-project
