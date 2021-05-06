@@ -1,0 +1,11 @@
+RewriteEngine on
+
+# if the URL contains /public
+# %1 refers to the match in the RewriteCond
+# [L] makes it the last test
+RewriteCond %{THE_REQUEST} /public/([^\s?]*) [NC]
+RewriteRule ^ %1 [L,NE,R=302]
+
+# if the url does NOT contain /public
+# $1 refers to the match in the RewriteRule
+RewriteRule ^((?!public/).*)$ public/$1 [L,NC]
