@@ -7,7 +7,7 @@ site/video,0,,,,,,
 site/sitePlan,0,,,,,,
 site/images,1,1,1,0,1,1,200
 team,0
-design/exteriorRenderings,1,0,1,0,1,1,200
+design/renderings,1,1,1,0,1,1,200
 design/landscape,1,0,1,1,1,1,200
 design/includedFeatures,1,0,1,1,1,1,200
 webCams,0
